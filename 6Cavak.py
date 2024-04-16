@@ -14,7 +14,10 @@ list_1=[{
     "Age":45
 }
 ]
-a= ["Age"]
+total=0
 for person in list_1:
-  a =len(list_1)
-print(a)
+  total += person["Age"]
+ 
+count =len(list_1)
+Age = total/count
+print(Age)
